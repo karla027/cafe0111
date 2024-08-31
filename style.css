@@ -1,0 +1,39 @@
+.navbar-brand img{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #313a70;
+}
+
+a{
+    color: inherit !important;
+}
+
+.header-main{
+    height: 100vh;
+}
+
+
+.galeria-item :hover {
+    filter: opacity(.5);
+}
+
+.galeria-item img {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5%;
+    border-color: #0e063d;
+}
+ 
+
+@media screen and (max-width:376px) {
+    body{
+        margin-top: 8rem;
+    }
+
+    .header-main{
+        height: initial;
+    }
+   
+}
+
